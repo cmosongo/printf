@@ -21,7 +21,7 @@ void cleanup(va_list args, buffer_t *output)
  */
 unsigned int convert_c(va_list args, buffer_t *output)
 {
-    char c = va_arg(args, int);
+    char c = (char)va_arg(args, int);
     return _memcpy(output, &c, 1);
 }
 
