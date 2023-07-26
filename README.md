@@ -2,14 +2,6 @@
 
 This repository contains a custom implementation of the `printf` function with support for various conversion specifiers. Below is a list of tasks and features included in this project.
 
-## Getting Started
-
-To use the `printf` function, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/printf.git`
-2. Navigate to the project directory: `cd printf`
-3. Compile the source code: `gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c`
-4. Run the executable: `./a.out`
 
 ## Tasks
 
@@ -17,12 +9,12 @@ To use the `printf` function, follow these steps:
 
    - Create a function `int _printf(const char *format, ...)` that mimics the behavior of the standard `printf` function.
    - The function should support the following conversion specifiers:
-     - `%c`: Print a character.
-     - `%s`: Print a string.
-     - `%%`: Print a percent sign.
+      - `%c`: Print a character.
+      - `%s`: Print a string.
+      - `%%`: Print a percent sign.
    - The function should return the number of characters printed (excluding the null byte).
 
-   Repo: [printf](https://github.com/your-username/printf)
+Repo: [printf](https://github.com/your-username/printf)
 
 1. **Support for 'd' and 'i' conversions**
 
@@ -123,4 +115,3 @@ To use the `printf` function, follow these steps:
    - Ensure that all the above options work well together.
 
    Repo: [printf](https://github.com/your-username/printf)
-
