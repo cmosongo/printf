@@ -45,13 +45,13 @@ To use the `printf` function, follow these steps:
 
    - Extend the `_printf` function to handle the 'u', 'o', 'x', and 'X' conversion specifiers.
 
-Repo: [printf](https://github.com/your-username/printf)
+   Repo: [printf](https://github.com/your-username/printf)
 
 4. **Optimize with a local buffer**
 
    - Use a local buffer of 1024 characters to minimize the number of calls to the `write` function.
 
-Repo: [printf](https://github.com/your-username/printf)
+   Repo: [printf](https://github.com/your-username/printf)
 
 5. **Handle custom conversion specifier 'S'**
 
