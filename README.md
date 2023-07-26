@@ -2,6 +2,43 @@
 
 This repository contains a custom implementation of the `printf` function with support for various conversion specifiers. Below is a list of tasks and features included in this project.
 
+## Breakdown
+
+### Basic Tasks:
+
+Create a custom printf function that supports basic conversions, such as printing characters, strings, and percent signs.
+
+Extend the printf function to handle 'd' and 'i' conversions (decimal and integer).
+
+### Advanced Tasks:
+
+Implement a custom conversion specifier '%b' to print unsigned integers in binary format.
+
+Extend the printf function to handle 'u', 'o', 'x', and 'X' conversions (unsigned, octal, hexadecimal lower-case, and hexadecimal upper-case).
+
+Optimize the function using a local buffer of 1024 characters to reduce the number of write calls.
+
+Implement a custom conversion specifier '%S' to print strings with non-printable characters represented as '\x' followed by their ASCII code in hexadecimal.
+
+Handle the 'p' conversion specifier (print memory address).
+
+Implement support for flag characters '+', 'space', and '#' for non-custom conversion specifiers.
+
+Handle length modifiers 'l' and 'h' for non-custom conversion specifiers 'd', 'i', 'u', 'o', 'x', and 'X'.
+
+Implement support for the field width for non-custom conversion specifiers.
+
+Implement support for the precision for non-custom conversion specifiers.
+
+Handle the flag character '0' for non-custom conversion specifiers (padding with zeros).
+
+Handle the flag character '-' for non-custom conversion specifiers (left-justify).
+
+Implement a custom conversion specifier '%r' to print the reversed string.
+
+Implement a custom conversion specifier '%R' to print the rot13'ed string.
+
+Ensure that all the above options work well together.
 
 ## Tasks
 
